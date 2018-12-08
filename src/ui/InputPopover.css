@@ -57,6 +57,19 @@
   line-height: 24px;
 }
 
+.select{
+  display: inline-block;
+  height: 30px;
+  background: none white;
+  border: 1px solid #999;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 2px 6px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
 .inner .buttonGroup {
   flex: 0 1 auto;
   margin-left: 4px;
@@ -68,4 +81,14 @@
   margin-left: 0px;
   margin-bottom: 0;
   padding: 4px 5px 2px;
+}
+
+.innerVertical .input {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.innerVertical label {
+  width: 75px;
+  display: inline-block;
 }

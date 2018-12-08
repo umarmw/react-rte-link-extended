@@ -178,7 +178,8 @@ export default class EditorDemo extends Component {
             attributes: {
               href: data.url,
               class: gaClass,
-              target: data.target
+              target: data.target,
+              rel: 'nofollow'
             },
           };
         }
