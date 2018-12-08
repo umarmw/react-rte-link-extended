@@ -8,6 +8,8 @@ This is a UI component built completely in React that is meant to be a full-feat
 
 This component has exented functionality for links. eg: **custom class** and **target type**. If you need the original one, the link is below.
 
+[![Screenshot of link extended](https://user-images.githubusercontent.com/7967815/49687654-9d838400-fb1f-11e8-88df-192650acf3eb.png)][react-rte-link-extended]
+
 
 ## Demo
 
