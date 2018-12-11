@@ -113,10 +113,10 @@ export default class InputPopoverCustom extends Component {
     }
 
   _renderTarget(){
-    let result = ["_blank", "_self", "_parent", "_top"];
+    let result = [["_self", "None"], ["_blank", "New Window"]];
     let options = [];
     for (let k = 0; k < result.length; k++) {
-      options.push(<option key={result[k]} value={result[k]} > {result[k]} </option>);
+      options.push(<option key={result[k][0]} value={result[k][0]} > {result[k][1]} </option>);
     }
     return options;
   }

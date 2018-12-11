@@ -1,6 +1,6 @@
 {
   "name": "react-rte-link-extended",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Rich Text Editor",
   "main": "dist/react-rte.js",
   "files": [
